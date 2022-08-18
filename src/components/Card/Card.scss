@@ -1,0 +1,82 @@
+.card{
+    width: 100%;
+    &__hero{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 50px 0;
+    }
+    &__main{
+        width: 300px;
+        height: 300px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        box-shadow: 10px 10px 15px rgba(75, 74, 74, 0.5);
+        margin: 10px 0 25px 0;
+    }
+    &--img{
+        width: 299px;
+        height: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+    &--name{
+        margin: 15px 0;
+        padding: 15px 10px;
+    }
+    &_white{
+        background-color: #fff;
+        color: black;
+    }
+    &_black{
+        background-color: #1a1f23;
+        color: #fff;
+    }
+    &_blacks{
+        background-color: black;
+        color: #fff;
+    }
+    &_w{
+        color: black;
+    }
+    &_b{
+        color: #fff;
+    }
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    &--link{
+        width: 10px;
+        height: 10px;
+        border: 1px solid transparent;
+        padding: 5px 10px;
+        color:#5F9EA0;
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 20px;
+        &:hover{
+            background-color: #20B2AA;
+            color: #fff;
+        }
+    }
+    
+ }
+// a{
+//     text-decoration: none;
+//     color: #fff !important;
+// }
+// .card_white{
+//     background-color: #fff;
+//     color: black !important
+// }
+// .bg{
+//     background-color: #111517;
+// }
+// .cards{
+//     background-color: #1a1f23;
+//     color: #fff !important;
+// }
+// .card {
+//     border: none !important;
+// }

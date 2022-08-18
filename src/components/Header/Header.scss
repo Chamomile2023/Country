@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0562443);;
+    &__hero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+    }
+    &__logo{
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 30px;
+    }
+    &__buttons{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    &--moon{
+        font-size: 20px;
+    }
+    &--mode{
+         font-size: 400 !important;
+    font-family: 'Luckiest Guy', cursive !important
+    }
+    &_white{
+        background-color: #fff;
+        color: black;
+    }
+    &_black{
+        background-color: black;
+        color: #fff;
+    }
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 6px !important;
+}
